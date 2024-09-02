@@ -4,18 +4,15 @@ The Smart Dustbin project leverages IoT technology and Python to create an intel
 
 **Key Components:**
 
-1. ESP32 Microcontroller: Acts as the brain of the system, facilitating communication with sensors and connecting to the Wi-Fi network.
+1. Arduino UNO : Acts as the brain of the system, facilitating communication with sensors and connecting to the Wi-Fi network.
    
 2. Ultrasonic Sensor: Measures the distance between the sensor and the nearest object (waste in the bin) to determine the fill level.
-
-3. Wi-Fi Connectivity: Allows the ESP32 to transmit data and be remotely monitored.
-
 
 **Features:**
 
 1. Distance Measurement: The ultrasonic sensor continuously measures the distance to the surface of the waste in the dustbin.
 
-2. Web Server: The ESP32 hosts a simple web server accessible over the Wi-Fi network.
+2. Web Server: The Arduino hosts a simple web server accessible over the Wi-Fi network.
 
 3. Users can connect to the server and view the real-time status of the dustbin.
 
